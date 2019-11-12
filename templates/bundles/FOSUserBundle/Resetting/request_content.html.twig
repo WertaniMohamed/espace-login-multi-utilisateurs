@@ -1,0 +1,19 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="text-center">
+    <h1 class="h4 text-gray-900 mb-2">{{ 'resetting.request.forget_password'|trans }}</h1>
+    <p class="mb-4"> {{ 'resetting.request.help'|trans }} </p>
+</div>
+<form action="{{ path('fos_user_resetting_send_email') }}" method="POST" class="fos_user_resetting_request user">
+    <div class="form-group">
+        <input type="text" class="form-control form-control-user" aria-describedby="emailHelp"
+               placeholder="{{ 'resetting.request.username'|trans }}" id="username" name="username"
+               value="" required="required" autocomplete="username"/>
+    </div>
+    <div>
+        <input class="btn btn-primary btn-user btn-block" type="submit" value="{{ 'resetting.request.submit'|trans }}"/>
+    </div>
+</form>
+<hr>
+<div class="text-center">
+    <a class="small" href="{{ path('fos_user_security_login') }}"> {{ 'security.login.have_an_account'|trans }}</a>
+</div>

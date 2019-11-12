@@ -1,0 +1,19 @@
+{% trans_default_domain 'FOSUserBundle' %}
+<div class="text-center">
+    <h1 class="h4 text-gray-900 mb-4">{{ 'registration.create_an_account'|trans }}</h1>
+</div>
+{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register user'}}) }}
+    {{ form_widget(form) }}
+<div>
+    <input class="btn btn-primary btn-user btn-block" type="submit" value="{{ 'registration.submit'|trans }}"/>
+</div>
+{{ form_end(form) }}
+
+<hr>
+<div class="text-center">
+    <a class="small" href="{{ path('fos_user_resetting_request') }}"> {{ 'security.login.forgot_password'|trans }}</a>
+</div>
+<div class="text-center">
+    <a class="small" href="{{ path('fos_user_security_login') }}"> {{ 'security.login.have_an_account'|trans }}</a>
+</div>
+

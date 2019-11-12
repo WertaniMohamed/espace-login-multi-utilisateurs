@@ -1,0 +1,16 @@
+{% trans_default_domain 'FOSUserBundle' %}              <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+              </div>
+<div class="text-center">
+    <h1 class="h4 text-gray-900 mb-2">{{ 'resetting.reset.forget_password'|trans }}</h1>
+</div>
+{{ form_start(form, { 'action': path('fos_user_resetting_reset', {'token': token}), 'attr': { 'class': 'fos_user_resetting_reset' } }) }}
+    {{ form_widget(form) }}
+<div>
+    <input class="btn btn-primary btn-user btn-block" type="submit" value="{{ 'resetting.reset.submit'|trans }}"/>
+</div>
+{{ form_end(form) }}
+<hr>
+<div class="text-center">
+    <a class="small" href="{{ path('fos_user_security_login') }}"> {{ 'security.login.have_an_account'|trans }}</a>
+</div>
