@@ -1,0 +1,6 @@
+topbar:
+  profile: 'Profil'
+  settings: 'Parameters'
+  activity_log: 'Journal d''activité'
+  logout: 'Deconnexion'
+
