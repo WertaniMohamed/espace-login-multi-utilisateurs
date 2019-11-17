@@ -1,14 +1,35 @@
-{# templates/bundles/TwigBundle/Exception/error404.html.twig #}
-{% extends 'base.html.twig' %}
-{% block heading %}
-{% endblock %}
-{% block content %}
+{#
+    This template is used to render errors of type HTTP 500 (Internal Server Error)
 
-    <!-- 404 Error Text -->
-    <div class="text-center">
-        <div class="error mx-auto" data-text="500">500</div>
-        <p class="lead text-gray-800 mb-5">Page non trouvée</p>
-        <p class="text-gray-500 mb-0">On dirait que vous avez trouvé un petit problème dans la matrice ...</p>
-        <a href="{{ path('main') }}">&larr; Retour au page d'accueil</a>
-    </div>
+    This is the simplest way to customize error pages in Symfony applications.
+    In case you need it, you can also hook into the internal exception handling
+    made by Symfony. This allows you to perform advanced tasks and even recover
+    your application from some errors.
+    See https://symfony.com/doc/current/cookbook/controller/error_pages.html
+#}
+
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="/build/css/app.4aa95248.css">
+{% endblock %}
+
+{% block body_id 'error' %}
+
+{% block main %}
+    <h1 class="text-danger">{{ 'http_error.name'|trans({ '%status_code%': 500 }) }}</h1>
+
+    <p class="lead">
+        {{ 'http_error_500.description'|trans }}
+    </p>
+    <p>
+        {{ 'http_error_500.suggestion'|trans({ '%url%': path('blog_index') })|raw }}
+    </p>
+{% endblock %}
+
+{% block sidebar %}
+    {{ parent() }}
+
+    {{ show_source_code(_self) }}
 {% endblock %}

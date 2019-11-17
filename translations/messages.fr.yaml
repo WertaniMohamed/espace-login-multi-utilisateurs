@@ -2,6 +2,5 @@ topbar:
   profile: 'Profil'
   settings: 'Parameters'
   activity_log: 'Journal d''activité'
-  logout: 'Déconnexion'
-  change_password: 'Modifier mot de passe'
-modal:
+  logout: 'Deconnexion'
+
