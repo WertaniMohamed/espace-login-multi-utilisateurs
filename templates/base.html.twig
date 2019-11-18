@@ -17,6 +17,9 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('sb-admin-2/css/sb-admin-2.min.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="{{ asset('sb-admin-2/vendor/datatables/dataTables.bootstrap4.min.css') }} " rel="stylesheet">
     {% block stylesheets %}{% endblock %}
 </head>
 
@@ -438,6 +441,13 @@
 <script src="{{ asset('sb-admin-2/js/demo/chart-area-demo.js') }}"></script>
 <script src="{{ asset('sb-admin-2/js/demo/chart-pie-demo.js') }}"></script>
 
+
+<!-- Page level plugins -->
+<script src="{{ asset('sb-admin-2/vendor/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('sb-admin-2/vendor/datatables/dataTables.bootstrap4.min.js') }}"></script>
+
+<!-- Page level custom scripts -->
+<script src="{{ asset('sb-admin-2/js/demo/datatables-demo.js') }}"></script>
 {#<script src="{{ asset('sb-admin-2/') }}') }}"></script>#}
 
 
