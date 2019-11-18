@@ -385,11 +385,18 @@ L\'équipe
     'form.new_password_confirmation' => 'Répéter le nouveau mot de passe',
     'security.login.forgot_password' => 'Mot de passe oublié?',
     'security.login.have_an_account' => 'Vous avez déjà un compte? S\'identifier!',
+    'registration.create_an_account' => 'Créer un compte!',
     'resetting.request.help' => 'Nous l\'obtenons, des choses se passent. Entrez simplement votre adresse e-mail ci-dessous et nous vous enverrons un lien pour réinitialiser votre mot de passe!',
     'resetting.request.forget_password' => 'Mot de passe oublié?',
     'resetting.reset.forget_password' => '__resetting.reset.forget_password',
     'resetting.reset.help' => '__resetting.reset.help',
-    'registration.create_an_account' => 'Create an Account!',
+  ),
+  'messages' => 
+  array (
+    'topbar.profile' => 'Profil',
+    'topbar.settings' => 'Parameters',
+    'topbar.activity_log' => 'Journal d\'activité',
+    'topbar.logout' => 'Deconnexion',
   ),
 ));
 $catalogue->addFallbackCatalogue($catalogueFr);

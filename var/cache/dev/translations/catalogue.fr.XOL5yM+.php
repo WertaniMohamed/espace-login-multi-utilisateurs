@@ -207,6 +207,13 @@ L\'équipe
     'resetting.reset.forget_password' => '__resetting.reset.forget_password',
     'resetting.reset.help' => '__resetting.reset.help',
   ),
+  'messages' => 
+  array (
+    'topbar.profile' => 'Profil',
+    'topbar.settings' => 'Parameters',
+    'topbar.activity_log' => 'Journal d\'activité',
+    'topbar.logout' => 'Deconnexion',
+  ),
 ));
 
 
