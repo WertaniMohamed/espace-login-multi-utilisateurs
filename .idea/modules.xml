@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../espace-login-multi-utilisateurs/.idea/espace-login-multi-utilisateurs.iml" filepath="$PROJECT_DIR$/../../espace-login-multi-utilisateurs/.idea/espace-login-multi-utilisateurs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/git.iml" filepath="$PROJECT_DIR$/.idea/git.iml" />
     </modules>
   </component>
