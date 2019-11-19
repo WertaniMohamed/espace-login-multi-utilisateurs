@@ -572,6 +572,7 @@ L\'équipe
     'topbar.settings' => 'Parameters',
     'topbar.activity_log' => 'Journal d\'activité',
     'topbar.logout' => 'Deconnexion',
+    'topbar.change_password' => 'Modifier votre mot de passe',
   ),
 ));
 $cataloguePt->addFallbackCatalogue($catalogueFr);

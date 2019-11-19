@@ -210,9 +210,10 @@ L\'équipe
   'messages' => 
   array (
     'topbar.profile' => 'Profil',
-    'topbar.settings' => 'Parameters',
+    'topbar.settings' => 'Paramètres',
     'topbar.activity_log' => 'Journal d\'activité',
     'topbar.logout' => 'Deconnexion',
+    'topbar.change_password' => 'Modifier votre mot de passe',
   ),
 ));
 

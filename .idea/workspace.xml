@@ -1,10 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78f2ca8b-68ef-4ca7-8724-e14a7e98ae46" name="Default Changelist" comment="page liste des employees v1">
-      <change beforePath="$PROJECT_DIR$/../../espace-login-multi-utilisateurs/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../espace-login-multi-utilisateurs/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bd3a620a-bb06-407c-9bf6-6e55e19627f5" name="Default Changelist" comment="Home -  Ajouter liens pour lem menu topBar">
+      <change afterPath="$PROJECT_DIR$/s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/edit_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/edit_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/new_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/new_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/edit_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/edit_content.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/sidebar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/sidebar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/messages.fr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/messages.fr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/.web-server-pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/UrlGenerator.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/UrlGenerator.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/UrlMatcher.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/UrlMatcher.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/annotations.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/annotations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerCompiler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerDeprecations.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerDeprecations.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/templates.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.af.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.af.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.af.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.af.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ar.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ar.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ar.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ar.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.az.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.az.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.az.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.az.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.be.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.be.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.be.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.be.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bg.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bg.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bg.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bg.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn_BD.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn_BD.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn_BD.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.bn_BD.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ca.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ca.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ca.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ca.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cs.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cs.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cs.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cs.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cy.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cy.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cy.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.cy.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.da.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.da.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.da.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.da.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.de.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.de.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.de.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.de.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.el.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.el.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.el.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.el.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.en.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.en.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.en.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.en.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eo.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eo.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eo.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eo.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.es.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.es.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.es.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.es.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.et.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.et.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.et.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.et.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eu.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eu.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eu.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.eu.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fa.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fa.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fa.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fa.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fi.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fi.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fi.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fi.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fr.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fr.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fr.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.fr.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.gl.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.gl.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.gl.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.gl.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.he.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.he.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.he.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.he.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hr.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hr.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hr.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hr.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hu.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hu.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hu.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hu.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hy.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hy.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hy.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.hy.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.id.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.id.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.id.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.id.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.it.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.it.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.it.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.it.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ja.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ja.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ja.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ja.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ky.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ky.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ky.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ky.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lb.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lb.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lb.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lb.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lt.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lt.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lt.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lt.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lv.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lv.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lv.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.lv.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.mn.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.mn.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.mn.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.mn.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nb.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nb.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nb.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nb.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nl.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nl.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nl.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nl.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nn.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nn.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nn.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.nn.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.no.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.no.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.no.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.no.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pl.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pl.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pl.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pl.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_BR.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_BR.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_BR.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_BR.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_PT.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_PT.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_PT.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.pt_PT.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ro.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ro.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ro.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ro.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ru.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ru.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ru.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.ru.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sk.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sk.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sk.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sk.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sl.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sl.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sl.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sl.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sq.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sq.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sq.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sq.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Cyrl.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Cyrl.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Cyrl.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Cyrl.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Latn.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Latn.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Latn.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sr_Latn.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sv.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sv.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sv.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.sv.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.th.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.th.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.th.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.th.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tl.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tl.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tl.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tl.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tr.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tr.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tr.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.tr.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.uk.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.uk.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.uk.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.uk.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.vi.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.vi.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.vi.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.vi.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_CN.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_CN.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_CN.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_CN.XOL5yM+.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_TW.XOL5yM+.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_TW.XOL5yM+.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_TW.XOL5yM+.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/translations/catalogue.zh_TW.XOL5yM+.php.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,72 +150,113 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/EmployerController.php">
+        <entry file="file://$PROJECT_DIR$/translations/messages.fr.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/edit_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/new_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
-                <element signature="e#34#54#0#PHP" expanded="true" />
+                <element signature="e#12#37#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/employer/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="407">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/theme/topbar.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+            <state>
+              <folding>
+                <element signature="e#12#37#0#Twig" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base-login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/templates/theme/sidebar.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/sb-admin-2/tables.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3495">
-              <caret line="831" column="14" selection-start-line="831" selection-start-column="14" selection-end-line="831" selection-end-column="14" />
+            <state relative-caret-position="215">
+              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
               <folding>
-                <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#2294#2302#0#Twig" expanded="true" />
+                <element signature="e#2385#2393#0#Twig" expanded="true" />
+                <element signature="e#3101#3109#0#Twig" expanded="true" />
+                <element signature="e#3192#3200#0#Twig" expanded="true" />
+                <element signature="e#3189#3197#0#Twig" expanded="true" />
+                <element signature="e#3271#3279#0#Twig" expanded="true" />
+                <element signature="e#3907#3915#0#Twig" expanded="true" />
+                <element signature="e#3998#4006#0#Twig" expanded="true" />
+                <element signature="e#4713#4721#0#Twig" expanded="true" />
+                <element signature="e#4804#4812#0#Twig" expanded="true" />
+                <element signature="e#5519#5527#0#Twig" expanded="true" />
+                <element signature="e#5610#5618#0#Twig" expanded="true" />
+                <element signature="e#6325#6333#0#Twig" expanded="true" />
+                <element signature="e#6416#6424#0#Twig" expanded="true" />
+                <element signature="n#li#8;n#ul#0;n#!!top" />
+                <element signature="e#7131#7139#0#Twig" expanded="true" />
+                <element signature="e#7222#7230#0#Twig" expanded="true" />
+                <element signature="n#li#2;n#ul#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/list_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6780">
-              <caret line="452" selection-start-line="452" selection-end-line="452" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+        <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/edit_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -98,13 +271,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" />
         <option value="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" />
         <option value="$PROJECT_DIR$/src/Controller/EmployerController.php" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/employer/index.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/new_content.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/edit_content.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig" />
+        <option value="$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/edit_content.html.twig" />
+        <option value="$PROJECT_DIR$/translations/messages.fr.yaml" />
+        <option value="$PROJECT_DIR$/templates/theme/sidebar.html.twig" />
       </list>
     </option>
   </component>
@@ -200,9 +379,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="168" />
-    <option name="width" value="1780" />
-    <option name="height" value="754" />
+    <option name="x" value="-1448" />
+    <option name="y" value="-59" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,13 +396,30 @@
         <subPane>
           <expand>
             <path>
-              <item name="espace-login-multi-utilisateurs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espace-login-multi-utilisateurs" type="462c0819:PsiDirectoryNode" />
+              <item name="git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="espace-login-multi-utilisateurs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="espace-login-multi-utilisateurs" type="462c0819:PsiDirectoryNode" />
+              <item name="git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="bundles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +456,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78f2ca8b-68ef-4ca7-8724-e14a7e98ae46" name="Default Changelist" comment="" />
+      <changelist id="bd3a620a-bb06-407c-9bf6-6e55e19627f5" name="Default Changelist" comment="Home -  Ajouter liens pour lem menu topBar" />
       <created>1573634595244</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -268,6 +465,7 @@
       <workItem from="1573644902360" duration="5754000" />
       <workItem from="1573658156620" duration="3781000" />
       <workItem from="1574066554486" duration="6885000" />
+      <workItem from="1574112850260" duration="7742000" />
     </task>
     <task id="LOCAL-00001" summary="AJouter fichier .gitignore pour supprimer quelques dossiers de commite generale .">
       <created>1573652640774</created>
@@ -301,13 +499,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18211000" />
+    <option name="totallyTimeSpent" value="27747000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="-1448" y="-59" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32604057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,7 +518,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32992035" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47848898" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.497851" visible="true" weight="0.3499327" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/UserManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -436,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6780">
-          <caret line="452" selection-start-line="452" selection-end-line="452" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -459,15 +643,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/theme/topbar.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+        <state>
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="346" column="54" selection-start-line="346" selection-start-column="54" selection-end-line="346" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="187">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Resetting/reset_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Resetting/request_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/show_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/ChangePassword/change_password_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/show_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/list_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/edit_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translations/messages.fr.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/edit_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Group/new_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Profile/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#37#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#37#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base-login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/theme/sidebar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+          <folding>
+            <element signature="e#2294#2302#0#Twig" expanded="true" />
+            <element signature="e#2385#2393#0#Twig" expanded="true" />
+            <element signature="e#3101#3109#0#Twig" expanded="true" />
+            <element signature="e#3192#3200#0#Twig" expanded="true" />
+            <element signature="e#3189#3197#0#Twig" expanded="true" />
+            <element signature="e#3271#3279#0#Twig" expanded="true" />
+            <element signature="e#3907#3915#0#Twig" expanded="true" />
+            <element signature="e#3998#4006#0#Twig" expanded="true" />
+            <element signature="e#4713#4721#0#Twig" expanded="true" />
+            <element signature="e#4804#4812#0#Twig" expanded="true" />
+            <element signature="e#5519#5527#0#Twig" expanded="true" />
+            <element signature="e#5610#5618#0#Twig" expanded="true" />
+            <element signature="e#6325#6333#0#Twig" expanded="true" />
+            <element signature="e#6416#6424#0#Twig" expanded="true" />
+            <element signature="n#li#8;n#ul#0;n#!!top" />
+            <element signature="e#7131#7139#0#Twig" expanded="true" />
+            <element signature="e#7222#7230#0#Twig" expanded="true" />
+            <element signature="n#li#2;n#ul#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
