@@ -150,4 +150,5 @@
   'WebProfilerBundle:Profiler:toolbar_js.html.twig' => __DIR__.'/../../../vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar_js.html.twig',
   'WebProfilerBundle:Profiler:toolbar_redirect.html.twig' => __DIR__.'/../../../vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar_redirect.html.twig',
   'WebProfilerBundle:Router:panel.html.twig' => __DIR__.'/../../../vendor/symfony/web-profiler-bundle/Resources/views/Router/panel.html.twig',
+  'KnpMenuBundle::menu.html.twig' => __DIR__.'/../../../vendor/knplabs/knp-menu-bundle/src/Resources/views/menu.html.twig',
 );
