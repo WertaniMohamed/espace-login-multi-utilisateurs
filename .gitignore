@@ -7,9 +7,9 @@
 /public/bundles/
 /var/
 /vendor/
-/.env
+.env
 ###< symfony/framework-bundle ###
-/.idea/
+.idea/
 ###> symfony/phpunit-bridge ###
 .phpunit
 /phpunit.xml
