@@ -5,7 +5,12 @@
 {% block heading_h1 %}
     liste des employés
 {% endblock %}
-
+{% block heading_btn %}
+    <a href="#"
+       class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                class="fas fa-plus fa-sm text-white-50"></i> Ajouter
+    </a>
+{% endblock %}
 
 {% block content %}
     {{ dump(users) }}
@@ -35,7 +40,8 @@
                             <td>{{ user.email }}</td>
                             <td>{{ dump(user.roles) }}</td>
                             <td>{{ (user.roles ?  'activer' : 'désactiver') }}</td>
-                            <td>{{ user.lastLogin|date("F jS \\a\\t g:ia") }}</td>
+                            {#                            <td>{{ user.lastLogin|date('d/m/Y') }}</td>#}
+                            <td>{{ user.lastLogin|localizeddate('full', 'none', null, null) }}</td>
                         </tr>
                     {% endfor %}
                     </tbody>

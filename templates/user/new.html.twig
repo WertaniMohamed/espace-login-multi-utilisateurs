@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter Employee{% endblock %}
+{% block heading_h1 %}
+    Créer un nouvel Employé
+{% endblock %}
+{% block heading_btn %}
+
+    <div class="btn-group" role="group">
+        <a href="{{ path('user_index') }}"
+           class="btn btn-sm btn-primary shadow-sm"><i
+                    class="fas fa-arrow-left fa-sm text-white-50"></i> retour à la liste
+        </a>
+    </div>
+
+{% endblock %}
+{% block content %}
+    <div class="card">
+        <div class="card-body">
+            {{ include('user/_form.html.twig') }}
+        </div>
+    </div>
+{% endblock %}
