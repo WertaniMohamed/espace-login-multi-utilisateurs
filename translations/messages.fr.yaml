@@ -1,6 +1,6 @@
 topbar:
   profile: 'Profil'
-  settings: 'Parameters'
+  settings: 'Paramètres'
   activity_log: 'Journal d''activité'
   logout: 'Deconnexion'
-
+  change_password: 'Modifier votre mot de passe'

@@ -13,9 +13,9 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ path('main') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <span>Tableau de bord</span></a>
     </li>
 
     <!-- Divider -->
@@ -25,23 +25,107 @@
     <div class="sidebar-heading">
         Interface
     </div>
-
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-           aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-cog"></i>
-            <span>Components</span>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVoiture"
+           aria-expanded="true" aria-controls="collapseVoiture">
+            <i class="fas fa-car-side"></i>
+            <span>Voiture</span>
         </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="collapseVoiture" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Custom Components:</h6>
-                <a class="collapse-item" href="buttons.html">Buttons</a>
-                <a class="collapse-item" href="cards.html">Cards</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Liste de voitures</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Ajouter une voiture</a>
             </div>
         </div>
     </li>
-
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseParametres"
+           aria-expanded="true" aria-controls="collapseParametres">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Paramètres</span>
+        </a>
+        <div id="collapseParametres" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="{{ path('employer') }}">Marque</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Modèle</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Carburant</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Type de corps</a>
+            </div>
+        </div>
+    </li>
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseChauffeur"
+           aria-expanded="true" aria-controls="collapseChauffeur">
+            <i class="fas fa-biking"></i>
+            <span>Chauffeur</span>
+        </a>
+        <div id="collapseChauffeur" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="{{ path('employer') }}">Liste de Chauffeurs</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Ajouter un Chauffeur</a>
+            </div>
+        </div>
+    </li>
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLocation"
+           aria-expanded="true" aria-controls="collapseLocation">
+            <i class="fas fa-file-signature"></i>
+            <span>Location</span>
+        </a>
+        <div id="collapseLocation" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="{{ path('employer') }}">Liste de locations</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Ajouter location</a>
+            </div>
+        </div>
+    </li>
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEmployees"
+           aria-expanded="true" aria-controls="collapseEmployees">
+            <i class="fas fa-user-shield"></i>
+            <span>Employées</span>
+        </a>
+        <div id="collapseEmployees" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Custom Components:</h6>
+                <a class="collapse-item" href="{{ path('employer') }}">Liste employées</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Ajouter employée</a>
+            </div>
+        </div>
+    </li>
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseClient"
+           aria-expanded="true" aria-controls="collapseClient">
+            <i class="fas fa-user-tie"></i>
+            <span>Client</span>
+        </a>
+        <div id="collapseClient" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="{{ path('employer') }}">Liste de clients</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Ajouter un client</a>
+            </div>
+        </div>
+    </li>
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDepenses"
+           aria-expanded="true" aria-controls="collapseDepenses">
+            <i class="fas fa-comments-dollar"></i>
+            <span>Les dépenses</span>
+        </a>
+        <div id="collapseDepenses" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <a class="collapse-item" href="{{ path('employer') }}">Liste des dépenses</a>
+                <a class="collapse-item" href="{{ path('employer') }}">Ajouter des dépenses</a>
+            </div>
+        </div>
+    </li>
     <!-- Nav Item - Utilities Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"

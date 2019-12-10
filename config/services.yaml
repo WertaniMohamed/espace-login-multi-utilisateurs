@@ -4,6 +4,7 @@
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
+    app.path.user_images: /uploads/images/users
 
 services:
     # default configuration for services in *this* file
@@ -30,3 +31,13 @@ services:
         class: App\Form\RegistrationType
         tags:
             - { name: form.type, alias: app_user_registration }
+
+    app.menu_builder:
+        class: App\Menu\Builder
+
+    app.menu.main:
+        class: Knp\Menu\MenuItem
+        factory: ['@app.menu_builder', 'mainMenu']
+        arguments: { $options: [] }
+        tags:
+            - { name: knp_menu.menu, alias: main }

@@ -1,0 +1,16 @@
+# config/packages/vich_uploader.yaml
+vich_uploader:
+    db_driver: orm
+
+    #mappings:
+    #    products:
+    #        uri_prefix: /images/products
+    #        upload_destination: '%kernel.project_dir%/public/images/products'
+
+    mappings:
+        user_images:
+            uri_prefix:         '%app.path.user_images%'
+            upload_destination: '%kernel.project_dir%/public%app.path.user_images%'
+            inject_on_load: false
+            delete_on_update: true
+            delete_on_remove: true
