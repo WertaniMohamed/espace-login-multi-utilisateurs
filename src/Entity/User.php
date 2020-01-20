@@ -138,7 +138,7 @@ class User extends BaseUser
      * of 'UploadedFile' is injected into this setter to trigger the update. If this
      * bundle's configuration parameter 'inject_on_load' is set to 'true' this setter
      * must be able to accept an instance of 'File' as the bundle will inject one here
-     *during Doctrine hydration.
+     * during Doctrine hydration.
      *
      * @param File|UploadedFile $imageFile
      */

@@ -1,3 +1,4 @@
+https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
 Git force pull to overwrite local files :
 
 git fetch --all
@@ -7,3 +8,5 @@ git pull origin master
 
 git push origin master
 git rm -r --cached var
+
+

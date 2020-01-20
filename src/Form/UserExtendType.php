@@ -4,6 +4,8 @@ namespace App\Form;
 
 use App\Entity\User;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\CollectionType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Vich\UploaderBundle\Form\Type\VichFileType;
@@ -14,12 +16,23 @@ class UserExtendType extends AbstractType
     {
         $builder
             ->add('enabled')
-            ->add('roles')
+            ->add('roles', CollectionType::class, [
+                'entry_type' => ChoiceType::class,
+                'entry_options' => [
+                    'label' => false,
+                    'choices' => [
+                        'User' => 'ROLE_USER',
+                        'Admin' => 'ROLE_ADMIN',
+                    ],
+                ],
+            ])
             ->add('name')
             ->add('lastName')
             ->add('birthDate')
             ->add('phone')
-            ->add('imageFile', VichFileType::class);
+            ->add('imageFile', VichFileType::class, [
+                'required' => false,
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)
