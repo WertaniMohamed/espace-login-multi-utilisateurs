@@ -3,8 +3,6 @@
 
 namespace App\Entity;
 
-use DateTime;
-use DateTimeImmutable;
 use DateTimeInterface;
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
@@ -73,6 +71,15 @@ class User extends BaseUser
      * @ORM\Column(type="datetime", nullable=true)
      */
     private $updatedAt;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Group")
+     * @ORM\JoinTable(name="app_user_user_group",
+     *      joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="group_id", referencedColumnName="id")}
+     * )
+     */
+    protected $groups;
 
     public function __construct()
     {
@@ -184,6 +191,16 @@ class User extends BaseUser
         $this->updatedAt = $updatedAt;
 
         return $this;
+    }
+
+    /**
+     * Get groups
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getGroups()
+    {
+        return $this->groups;
     }
 
 }

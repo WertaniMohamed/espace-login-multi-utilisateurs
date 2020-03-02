@@ -2,7 +2,9 @@
 
 namespace App\Form;
 
+use App\Entity\Group;
 use App\Entity\User;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\CollectionType;
@@ -26,6 +28,11 @@ class UserExtendType extends AbstractType
                     ],
                 ],
             ])
+            ->add('groups', EntityType::class, array(
+                'class' => Group::class,
+                'choice_label' => 'name',
+                'multiple' => true,
+            ))
             ->add('name')
             ->add('lastName')
             ->add('birthDate')

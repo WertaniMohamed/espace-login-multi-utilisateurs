@@ -8,3 +8,5 @@ fos_user:
     registration:
         form:
             type: App\Form\RegistrationType
+    group:
+        group_class: App\Entity\Group
